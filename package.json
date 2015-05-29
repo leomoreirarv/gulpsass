@@ -1,0 +1,17 @@
+{
+  "name": "testeGulpSass",
+  "version": "1.0.0",
+  "description": "Testando GULP + SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-watch": "^4.2.4"
+  }
+}

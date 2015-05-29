@@ -1,0 +1,21 @@
+body {
+  background: #ccc; }
+
+body > div {
+  background: #fff;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: #999999 2px 2px 10px;
+  border-radius: 10px;
+  padding: 20px;
+  transform: rotate(-5deg); }
+
+body > div > h1 {
+  font-size: 28px;
+  text-align: center; }
+
+body > div > p {
+  font-size: 18px;
+  line-height: 150%; }

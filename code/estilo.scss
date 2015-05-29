@@ -1,0 +1,31 @@
+$branco: #fff;
+$cinza: #ccc;
+$fontGrande: 28px;
+$fontPequena: 18px;
+$corner: 10px;
+
+body{
+    background: $cinza;
+}
+
+    body > div{
+        background: $branco;
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow: #999999 2px 2px 10px;
+        border-radius: $corner;
+        padding: 20px;
+        transform: rotate(-5deg)
+    }
+
+        body > div > h1{
+            font-size: $fontGrande;
+            text-align: center;
+        }
+
+        body > div > p{
+            font-size: $fontPequena;
+            line-height: 150%;
+        }
